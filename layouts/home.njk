@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Cassi CSS AI Assistant</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body>
+    {% include "top-nav.njk" %}
+
+    {{ content | safe }}
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Cassi. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

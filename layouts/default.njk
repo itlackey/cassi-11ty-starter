@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Cassi CSS AI Assistant</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/cassi.css">
+</head>
+
+<body>
+    {% include "top-nav.njk" %}
+
+    <main>
+        <div class="cassi-container">
+            <div>
+            {% include "cassi-menu.njk" %}
+            </div>
+            <div>
+                {{ content | safe}}
+            </div>
+        </div>
+    </main>
+    <style>
+
+    </style>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Cassi. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

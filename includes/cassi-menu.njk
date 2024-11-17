@@ -1,0 +1,6 @@
+<nav class="sidebar-nav">
+    <a href="/cassi">Style Guide Index</a>
+    {%- for item in collections.cassi %}
+    <a href="{{item.url}}">{{ item.data.title }}</a>
+    {% endfor -%}
+</nav>

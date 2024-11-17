@@ -1,0 +1,17 @@
+{
+  "name": "@itlackey.dev/cassi-11ty-starter",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "npx eleventy --serve",
+    "build": "npx eleventy",
+    "generate": "npx cassi assets/css/**/*.css --output pages/cassi"
+  },
+  "type": "module",
+  "author": "ITLackey",
+  "license": "MIT",
+  "description": "Cassi 11ty Starter Kit",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "cassi": "github:itlackey/cassi"
+  }
+}
