@@ -37,8 +37,8 @@ jobs:
           node-version: '20.x'
       - name: Install Dependencies
         run: npm install
-      - name: Install Dependencies
-        run: npm run build
+      - name: Build Site
+        run: npx @11ty/eleventy --pathprefix=cassi-11ty-starter
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact

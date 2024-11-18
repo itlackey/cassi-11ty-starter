@@ -1,5 +1,7 @@
+import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
 export default async function (eleventyConfig) {
-	eleventyConfig.addLayoutAlias("default", "default.njk");
+	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+  eleventyConfig.addLayoutAlias("default", "default.njk");
   eleventyConfig.setInputDirectory("pages");
   eleventyConfig.setDataDirectory("../data");
   eleventyConfig.setIncludesDirectory("../includes");
