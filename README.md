@@ -2,7 +2,7 @@
 
 ![Cassi Logo](./assets/imgs/logo-small.webp)
 
-Cassi is an innovative tool that generates markdown-based documentation for your CSS files using AI. Whether you're managing a legacy codebase or building new projects, Cassi simplifies the process of creating a comprehensive and customizable CSS style guide.
+Cassi is an innovative tool that generates markdown-based documentation for your CSS files using AI. Whether you're managing a legacy codebase or building new projects, Cassi simplifies the process of creating a comprehensive and customizable CSS style guide. You can learn more about Cassi here [itlackey/cassi](https://github.com/itlackey/cassi).
 
 ## Why a Starter Kit?
 
