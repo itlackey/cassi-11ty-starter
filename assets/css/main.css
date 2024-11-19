@@ -30,7 +30,7 @@ h4,
 h5,
 h6 {
     margin-bottom: 1rem;
-    font-weight: normal;    
+    font-weight: normal;
     color: var(--primary-color);
 }
 
@@ -47,10 +47,12 @@ a:hover {
     color: var(--primary-color);
 }
 
-ul, ol {
+ul,
+ol {
     padding-left: 3rem;
     margin-bottom: 1rem;
 }
+
 /* Forms */
 input,
 textarea,
@@ -91,6 +93,7 @@ button:hover {
     background: var(--background-color);
     padding: 0.5rem 1rem;
     border-bottom: 1px solid var(--border-color);
+    container-type: inline-size;
 }
 
 .navbar .container {
@@ -109,6 +112,19 @@ button:hover {
     list-style: none;
     display: flex;
     gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+@container (max-width: 400px) {
+    .navbar .container {
+        justify-content: center;
+    }
+
+    .nav-links {
+        width: 0;
+        overflow: hidden;
+    }
 }
 
 .nav-links a {
@@ -116,6 +132,7 @@ button:hover {
     text-decoration: none;
     font-weight: bold;
     font-size: 1.1rem;
+    text-wrap: nowrap;
 }
 
 .nav-links a:hover {
