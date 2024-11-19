@@ -49,6 +49,7 @@ a:hover {
 
 ul, ol {
     padding-left: 3rem;
+    margin-bottom: 1rem;
 }
 /* Forms */
 input,
@@ -172,7 +173,10 @@ button:hover {
 
 .feature-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: center;
+    align-items: start;
+    margin: auto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 30%));
     gap: 2rem;
 }
 
